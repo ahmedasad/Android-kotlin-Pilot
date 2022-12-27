@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    default screen margin/padding as per the android guidelines.-->
+
+    <dimen name="padding_zero">0dp</dimen>
+    <dimen name="padding_nano">2dp</dimen>
+    <dimen name="padding_micro">4dp</dimen>
+    <dimen name="padding_micro_mid">6dp</dimen>
+
+    <dimen name="padding_tiny">8dp</dimen>
+    <dimen name="padding_small">12dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">20dp</dimen>
+    <dimen name="padding_big">24dp</dimen>
+    <dimen name="padding_huge">30dp</dimen>
+    <dimen name="padding_gargantua">40dp</dimen>
+
+    <!--    text sizes -->
+
+    <dimen name="text_nano">8sp</dimen>
+    <dimen name="text_micro">10sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_x_large">18sp</dimen>
+    <dimen name="text_huge">24sp</dimen>
+    <dimen name="text_gargantua">30sp</dimen>
+
+</resources>
