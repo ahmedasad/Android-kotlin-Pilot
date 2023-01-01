@@ -10,8 +10,8 @@ import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
+import dagger.hilt.android.AndroidEntryPoint
 
 abstract class BaseFragment<out VDB> : Fragment() {
 
@@ -20,8 +20,10 @@ abstract class BaseFragment<out VDB> : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        if (arguments != null)
-            handleArgument(arguments!!)
+        arguments?.let {
+            handleArgument(it)
+        }
+
     }
 
     override fun onCreateView(
@@ -53,7 +55,9 @@ abstract class BaseFragment<out VDB> : Fragment() {
     }
 
     protected fun showSnack(msg: String) {
-        Snackbar.make(view!!, msg, Snackbar.LENGTH_SHORT).show()
+        view?.let{
+            Snackbar.make(it, msg, Snackbar.LENGTH_SHORT).show()
+        }
     }
 
     protected fun showSnack(@StringRes msg: Int) {

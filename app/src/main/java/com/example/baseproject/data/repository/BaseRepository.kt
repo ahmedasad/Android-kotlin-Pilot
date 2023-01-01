@@ -58,6 +58,7 @@ abstract class BaseRepository() {
                 is Result.Success -> {
                     insertIntoDb.invoke(res.data)
                 }
+                else -> {}
             }
         }
 }

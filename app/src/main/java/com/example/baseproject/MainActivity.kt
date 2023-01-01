@@ -9,9 +9,10 @@ import androidx.navigation.fragment.NavHostFragment
 import com.example.baseproject.base.BaseActivity
 import com.example.baseproject.base.BaseBottomSheetDialogFragment
 import com.example.baseproject.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : BaseActivity<ActivityMainBinding>() {
-
 
     lateinit var binding: ActivityMainBinding
 
