@@ -16,10 +16,10 @@
 ### Structure and Libraries used:
   - <kbd> <br> Kotlin <br> </kbd> is used to develop this application
   - <kbd> <br> MVVM <br> </kbd> Architectural Patterns is used to design the solution
-  - Design patterns <kbd> <br> Singleton, Observer, Dependency Injection <br> </kbd> used as per need
-  - Third-party Libraries <kbd> <br> Retrofit <br> </kbd> <kbd> <br> Kotlin Coroutines <br> </kbd> <kbd> <br> Gson Converter <br> </kbd> were used
-  - Jetpack Libraries <kbd> <br> Fragments <br> </kbd> <kbd> <br> Databinding <br> </kbd> <kbd> <br> Navigation <br> </kbd> <kbd> <br> RecyclerView <br> </kbd> <kbd> <br> WorkManager <br> </kbd> <kbd> <br> ViewPager <br> </kbd> used to design
-  - <kbd> <br> Hilt <br> </kbd> Dagger based Dependency injection used
+  - **Design patterns** <kbd> <br> Singleton <br> </kbd> <kbd> <br> Observer <br> </kbd> <kbd> <br> Dependency Injection <br> </kbd> used as per need
+  - **Third-party Libraries** <kbd> <br> Retrofit <br> </kbd> <kbd> <br> Kotlin Coroutines <br> </kbd> <kbd> <br> Gson Converter <br> </kbd> were used
+  - **Jetpack Libraries** <kbd> <br> Fragments <br> </kbd> <kbd> <br> Databinding <br> </kbd> <kbd> <br> Navigation <br> </kbd> <kbd> <br> RecyclerView <br> </kbd> <kbd> <br> WorkManager <br> </kbd> <kbd> <br> ViewPager <br> </kbd> used to design
+  - **Dependency injection** <kbd> <br> Hilt <br> </kbd> is used
 
 
  ### App limitations / restrictions
